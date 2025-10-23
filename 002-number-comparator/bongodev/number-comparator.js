@@ -46,6 +46,6 @@ compareButton.addEventListener('click', function () {
 resetButton.addEventListener('click', function () {
   numberInput1.value = '0';
   numberInput2.value = '0';
-  result.innerText = '';
+  result.innerText = "";
   resetErrorStyles();
 });
